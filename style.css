@@ -19,6 +19,9 @@ header {
     align-items: center;
     padding: 10px 200px;
 }
+@media (max-width : 375px) {
+    
+}
 .Logo {
     text-decoration: none;
     color: #ff1010;
@@ -323,13 +326,13 @@ ol li {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
     body {
         font-size: 10px;
-
     }
-    /* width: 100%;
-    }    .footer {
-     */
+    header {
+        width: 375px;
+    }
+
 
 }
