@@ -328,8 +328,9 @@ ol li {
         font-size: 10px;
 
     }
-    /* width: 100%;
-    }    .footer {
-     */
+    header {
+        width: 100%;
+    }
+ 
 
 }
