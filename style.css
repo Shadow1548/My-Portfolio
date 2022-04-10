@@ -324,7 +324,7 @@ ol li {
     width: 375px;
   }
   header {
-    width: 375px;
+    width: 100%;
   }
   .main-content h2 {
     font-size: 0.8em;
@@ -349,6 +349,6 @@ ol li {
     font-size: 10px;
   }
   header {
-    max-width: 375px;
+    max-width: 100%;
   }
 }
