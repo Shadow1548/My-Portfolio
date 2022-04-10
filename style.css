@@ -197,7 +197,6 @@ section{
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
-   
 }
 .more-details {
     text-decoration: none;
@@ -295,11 +294,13 @@ ol li {
     }
 }
 
-@media (max-width: 641px) {
+@media  (max-width: 640px)  {
     body {
         font-size: 12px ;
     }
-
+    header {
+        width: 100%;
+    }
     .main-content h2 {
         font-size: 0.8em;
     }
@@ -323,14 +324,34 @@ ol li {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
     body {
-        font-size: 10px;
-
+        font-size: 12px ;
+        width: 375px;
     }
     header {
-        width: 100%;
+        width: 375px;
     }
- 
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+    .main-content h3 {
+        font-size: 1.2em;
+    }
+    .main {
+        min-height: 72vh;
+    }
+    #Services .card {
+        height: 212px;
+    } 
+    .contact .card {
+        padding-top: 10%;
+    }
+    .contact .info {
+        margin-top: 15%;
+    }
+    .footer .social-icons {
+        right: -27px;
+    }
 
 }
